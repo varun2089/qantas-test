@@ -1,0 +1,14 @@
+.hotel-list {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+.sorting-container {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.hotel-list select {
+  padding: 5px 15px;
+  font-size: 16px;
+}

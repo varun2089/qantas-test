@@ -1,0 +1,45 @@
+.hotel-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.hotel-card img {
+  width: 145px;
+  height: 125px;
+}
+
+.hotel-details {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.hotel-price {
+  font-size: 24px;
+}
+
+.rating-container {
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+.star-image,
+.circle-image {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+}
+
+.star-image {
+  background-image: url("./images/star.png");
+}
+
+.circle-image {
+  background-image: url("./images/circle.png");
+}

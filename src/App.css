@@ -1,0 +1,10 @@
+.App {
+  text-align: left;
+}
+
+.qantas-logo {
+  width: 200px;
+  margin: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
